@@ -41,14 +41,16 @@ body{
     height: 100%;
 }
 .header-banner-left-all-text .preebook-btn{
-    width: 165px;
+    width: 173px;
     padding: 12px 18px;
     margin-top: 15px;
-    border-radius: 5px;
+    border-radius:30px;
     border: none;
     font-size: 16px;
     background-color: #E02C6D;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .header-banner-left-all-text .preebook-btn i{
@@ -68,10 +70,11 @@ body{
 }
 .header-banner-right-img{
     flex-basis: 50%;
-    text-align: center;
+    text-align:center;
 }
 .header-banner-right-img #header-banner-img{
    width: 400px;
    height: 400px;
+   margin-top: 15px;
 }
 
