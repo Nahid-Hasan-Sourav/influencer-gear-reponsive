@@ -21,4 +21,22 @@
         text-align: center;
         margin-top: 20px;
     }
+
+    .logos{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    hr{
+        display: none;
+    }
+    .logo-four-in-one-part{
+        margin-bottom: 10px;
+    }
+
+    .logos img{
+        width:80px;
+        height: 30px;
+        margin: 0px 10px;
+    }
 }

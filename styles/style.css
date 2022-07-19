@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Poppins', sans-serif; */
 *{
@@ -9,10 +10,12 @@
 }
 body{
     padding: 0px 10px;
+    /* background-color: rgb(178, 166, 166); */
 }
 .container{
     width:95%;   
     margin: 0 auto;
+    /* background-color: rgb(246, 242, 242); */
    
 }
 /* .........................
@@ -21,6 +24,7 @@ body{
    .........................
    .........................
 */
+
 .header-banner{
     width: 100%;
     display: flex;
@@ -43,7 +47,7 @@ body{
 .header-banner-left-all-text .preebook-btn{
     width: 173px;
     padding: 12px 18px;
-    margin-top: 15px;
+    margin-top: 35px;
     border-radius:30px;
     border: none;
     font-size: 16px;
@@ -78,3 +82,85 @@ body{
    margin-top: 15px;
 }
 
+/* .........................
+   HEADER SECTION STYLE END HERE
+   .........................
+*/
+
+hr{
+    width: 80%;
+    margin: 5px auto;  
+    border: 1px solid rgb(159, 157, 157);
+    border-top: none;
+}
+.logos{
+    padding: 20px 30px;
+    display: flex;
+    justify-content:center;
+}
+.logos img{
+    width:80px;
+    height: 30px;
+    margin: 0px 20px;
+}
+
+#popular-collection .popular-collection-title{
+    margin: 25px 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+#popular-collection .popular-collection-all-card{
+    margin: 30px 0px;
+    padding: 0px 5px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+#popular-collection .popular-collection-all-card .populer-collection-card{
+    border: 1px solid red;
+    padding: 5px;
+    width: 100%;
+}
+#popular-collection .popular-collection-all-card .populer-collection-card .card-img{
+    width: 100%;
+    
+}
+#popular-collection .popular-collection-all-card .populer-collection-card .card-img img{
+    width: 100%;
+   
+}
+
+#popular-collection .popular-collection-all-card .card-details .card-title-price{
+    margin: 10px 0px;
+}
+#popular-collection .popular-collection-all-card .card-details .card-title-price h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+#popular-collection .popular-collection-all-card .card-details .card-title-price p{
+    margin: 3px 0px 0px 0px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+#popular-collection .popular-collection-all-card .card-details .card-star{
+    margin: 2px 0px 9px 0px;
+}
+#popular-collection .popular-collection-all-card .card-details .card-star span i{
+    font-size: 12px;
+    color: orange;
+}
+#popular-collection .popular-collection-all-card .card-details .card-star .rating{
+    margin-left:10px ;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+#popular-collection .popular-collection-all-card .card-details .card-bottom-details{
+    font-size: 14px;   
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
