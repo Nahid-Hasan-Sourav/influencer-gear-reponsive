@@ -1,4 +1,4 @@
-@media(max-width:767px){
+@media(max-width:768px){
     body{
         padding: 0px 10px;
     }
@@ -38,5 +38,36 @@
         width:80px;
         height: 30px;
         margin: 0px 10px;
+    }
+
+    #popular-collection .popular-collection-all-card{
+       
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 25px;
+    }
+
+    .Featured-products{
+        flex-direction: column;
+        text-align: center;
+    }
+    .Featured-products-right-text .Featured-products-right-text-inner-text{
+        width: 100%;
+        border: 2px solid;
+    }
+}
+
+@media(max-width:500px){
+    .header-banner-right-img #header-banner-img{
+        padding:30px 30px;
+    }
+    .logos img{
+        width:80px;
+        height: 30px;
+        margin: 0px 5px;
+    }
+
+    .Featured-products-right-text .Featured-products-right-text-inner-text{
+        width: 100%;
+        
     }
 }
